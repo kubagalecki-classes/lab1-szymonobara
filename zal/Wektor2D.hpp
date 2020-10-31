@@ -1,4 +1,4 @@
-class Wektor2D
+struct Wektor2D
 {
   Wektor2D() {x=0; y=0;}
 
