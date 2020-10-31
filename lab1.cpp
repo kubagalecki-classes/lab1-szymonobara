@@ -34,10 +34,10 @@ struct Wektor2D
         std::cout << "x = " << x << "\n"
                   << "y = " << y << "\n";
     }
-    // void setX(int x) { wsp_x = x; }
-    // void setY(int y) { wsp_y = y; }
-    // int  getX() { return wsp_x; }
-    // int  getY() { return wsp_y; }
+    void setX(int x) { wsp_x = x; }
+    void setY(int y) { wsp_y = y; }
+    int  getX() { return wsp_x; }
+    int  getY() { return wsp_y; }
     static int populacja() { return num_wek; }
     int        x;
     int        y;
