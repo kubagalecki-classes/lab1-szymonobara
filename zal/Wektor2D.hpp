@@ -7,12 +7,14 @@ class Wektor2D
       x=wsp_x;
       y=wsp_y;
     }
-  double x;
-  double y;
+  
   double getX(){return x;}
   double getY(){return y;}
   void setX(double wsp_x) {x = wsp_x;}
   void setY(double wsp_y) {y = wsp_y;}
+  
+  double x;
+  double y;
   
 };
 
